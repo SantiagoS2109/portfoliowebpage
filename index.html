@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Ingeniero Multimedia y desarrollador frontend en formación. Con conocimiento en diseño gráfico y diseño UI. Freelancer, ubicado en Cúcuta Colombia"
+    />
+
+    <!-- ICON Y MANIFEST -->
+    <!-- <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" /> -->
+
+    <!-- FUENTES & ICONS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>Santiago Sepulveda</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a class="logo" href="#">Santiago</a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#" class="main-nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="main-nav-link">Sobre mí</a>
+          </li>
+          <li>
+            <a href="#skills" class="main-nav-link">Habilidades</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="main-nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#education" class="main-nav-link">Educación</a>
+          </li>
+          <li>
+            <a href="#cta" class="main-nav-link">Contacto</a>
+          </li>
+          <li>
+            <a href="#" class="main-nav-link">
+              <i class="icon icon--nav ph ph-moon"></i>
+              <!-- <ion-icon class="icon icon--nav" name="moon-outline"></ion-icon> -->
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section section-hero">
+        <!-- <div class="container-hero"> -->
+        <div class="hero">
+          <div class="hero-socials">
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/in/santiago-sepúlveda-022a8a217/"
+              target="_blank"
+            >
+              <i class="icon icon--socials ph ph-linkedin-logo"></i>
+              <!-- <ion-icon
+                class="icon icon--socials"
+                name="logo-linkedin"
+              ></ion-icon> -->
+            </a>
+            <a
+              class="social-link"
+              href="https://github.com/SantiagoS2109"
+              target="_blank"
+            >
+              <i class="icon icon--socials ph ph-github-logo"></i>
+              <!-- <ion-icon
+                class="icon icon--socials"
+                name="logo-github"
+              ></ion-icon> -->
+            </a>
+          </div>
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Hola, soy Santiago!</h1>
+            <span class="subheading-hero">Ingeniero Multimedia</span>
+            <p class="text-description">
+              Ingeniero Multimedia y desarrollador frontend en formación. Con
+              conocimiento en diseño gráfico y diseño UI.
+            </p>
+
+            <a href="#cta" class="btn"
+              ><span>Contáctame</span>
+              <!-- <ion-icon
+                class="icon icon--btn"
+                name="paper-plane-outline"
+              ></ion-icon> -->
+              <div>
+                <i class="icon icon--btn ph ph-paper-plane-right"></i>
+              </div>
+            </a>
+
+            <div class="hero-look">
+              <a href="#portfolio" class="btn--clean">
+                <div><i class="icon icon--look ph ph-mouse-simple"></i></div>
+                <span>¡Echa un vistazo!</span>
+                <div>
+                  <i class="icon icon--look-small ph ph-arrow-down"></i>
+                </div>
+
+                <!-- <ion-icon
+                  class="icon icon-look"
+                  name="arrow-down-outline"
+                ></ion-icon> -->
+              </a>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              class="hero-img"
+              alt="Santiago Sepulveda, Ingeniero Multimedia"
+              src="img/hero.jpeg"
+              alt=""
+            />
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-about" id="about">
+        <div class="container container--center">
+          <h2 class="heading-section">Sobre mí</h2>
+          <span class="subheading">Mi introducción</span>
+        </div>
+        <div
+          class="container about-content grid grid--2-cols grid--center-v container--mb"
+        >
+          <img
+            class="hero-img grid--justify-end"
+            src="img/about.JPEG"
+            alt="Santiago Sepulveda"
+          />
+          <p class="text-description text-description--about">
+            Hola, mi nombre es <span>Santiago Sepúlveda Narváez</span>.
+            Estudiante de Ingeniería Multimedia de Colombia. Enfocado en
+            desarrollo web, diseño gráfico y diseño UI.
+          </p>
+        </div>
+        <div class="container container--center">
+          <span class="subheading">Mis intereses</span>
+          <div class="hobbies">
+            <div class="hobbie">
+              <i class="icon icon--hobbie ph ph-barbell"></i>
+              <!-- <ion-icon
+                class="icon icon--hobbie"
+                name="barbell-outline"
+              ></ion-icon> -->
+              <p class="text-description">Entrenamiento</p>
+            </div>
+            <div class="hobbie">
+              <i class="icon icon--hobbie ph ph-headphones"></i>
+              <!-- <ion-icon
+                class="icon icon--hobbie"
+                name="headset-outline"
+              ></ion-icon> -->
+              <p class="text-description">Música</p>
+            </div>
+            <div class="hobbie">
+              <i class="icon icon--hobbie ph ph-game-controller"></i>
+              <!-- <ion-icon
+                class="icon icon--hobbie"
+                name="game-controller-outline"
+              ></ion-icon> -->
+              <p class="text-description">Video Juegos</p>
+            </div>
+
+            <div class="hobbie">
+              <i class="icon icon--hobbie ph ph-book-open"></i>
+              <!-- <ion-icon
+                class="icon icon--hobbie"
+                name="book-outline"
+              ></ion-icon> -->
+              <p class="text-description">Lectura</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-skills" id="skills">
+        <div class="container container--flex">
+          <h2 class="heading-section">Habilidades</h2>
+        </div>
+        <div class="container container--flex">
+          <!-- grid grid--2-cols grid--2-cols--skills -->
+          <div class="container--card">
+            <div class="hard-skills">
+              <div class="skills-type-title">
+                <span class="subheading">Habilidades técnicas</span>
+              </div>
+              <div class="hard-skills--content">
+                <!-- grid grid--2-cols -->
+                <div class="icon--skils-box">
+                  <i class="icon icon--skills ph ph-brackets-curly"></i>
+                  <span class="subheading subheading--skills"
+                    >Desarrollador Frontend</span
+                  >
+                </div>
+                <!-- <ion-icon
+                  class="icon icon-skills"
+                  name="code-slash-outline"
+                ></ion-icon> -->
+
+                <div class="hard--skills-box">
+                  <div class="progress">
+                    <p class="text-description">HTML</p>
+                    <p class="text-description skills-percentage">80%</p>
+                  </div>
+                  <div class="skills-bar">
+                    <span class="skills-bar--percentage skills-html"></span>
+                  </div>
+                  <div class="progress">
+                    <p class="text-description">CSS</p>
+                    <p class="text-description skills-percentage">60%</p>
+                  </div>
+                  <div class="skills-bar">
+                    <span class="skills-bar--percentage skills-css"></span>
+                  </div>
+                  <div class="progress">
+                    <p class="text-description">JavaScript</p>
+                    <p class="text-description skills-percentage">50%</p>
+                  </div>
+                  <div class="skills-bar">
+                    <span class="skills-bar--percentage skills-js"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hard-skills--content">
+                <div class="icon--skils-box">
+                  <i class="icon icon--skills ph ph-pen-nib"></i>
+                  <span class="subheading subheading--skills"
+                    >Diseñador Gráfico</span
+                  >
+                </div>
+                <!-- <ion-icon
+                  class="icon icon-skills"
+                  name="pencil-outline"
+                ></ion-icon> -->
+
+                <div class="hard--skills-box">
+                  <div class="progress">
+                    <p class="text-description">Photoshop</p>
+                    <p class="text-description skills-percentage">70%</p>
+                  </div>
+                  <div class="skills-bar">
+                    <span class="skills-bar--percentage skills-html"></span>
+                  </div>
+                  <div class="progress">
+                    <p class="text-description">Illustrator</p>
+                    <p class="text-description skills-percentage">80%</p>
+                  </div>
+                  <div class="skills-bar">
+                    <span class="skills-bar--percentage skills-css"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container--card">
+            <div class="soft-skills">
+              <div class="skills-type-title">
+                <span class="subheading">Habilidades blandas</span>
+              </div>
+              <div>
+                <ul class="soft-skills--list">
+                  <li class="soft-skills--item">
+                    <i class="icon icon--skills ph ph-check"></i>
+                    <p class="text-description">Manejo del tiempo</p>
+                  </li>
+                  <li class="soft-skills--item">
+                    <i class="icon icon--skills ph ph-check"></i>
+                    <p class="text-description">Liderazgo</p>
+                  </li>
+                  <li class="soft-skills--item">
+                    <i class="icon icon--skills ph ph-check"></i>
+                    <p class="text-description">Trabajo en equipo</p>
+                  </li>
+                  <li class="soft-skills--item">
+                    <i class="icon icon--skills ph ph-check"></i>
+                    <p class="text-description">Comunicación</p>
+                  </li>
+                  <li class="soft-skills--item">
+                    <i class="icon icon--skills ph ph-check"></i>
+                    <p class="text-description">Adaptabilidad</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-portfolio" id="portfolio">
+        <div class="container container--center">
+          <h2 class="heading-section">Portfolio</h2>
+        </div>
+        <div class="container--portfolio container grid grid--2-cols">
+          <div class="project-img-box">
+            <img
+              class="project-img project-img--l"
+              src="img/portfolio-1.png"
+              alt="Proyecto Omnifood."
+            />
+          </div>
+          <div class="project">
+            <div class="project-description project-description--bl">
+              <span class="subheading">Omnifood Project</span>
+              <p class="text-description">
+                Landing page para la app ficticia Omnifood. Planes nutricionales
+                personalizados, generados semanalmente mediante IA.
+              </p>
+              <div class="project-icons">
+                <i class="icon project-icon ph ph-file-html"></i>
+                <i class="icon project-icon ph ph-file-css"></i>
+                <i class="icon project-icon ph ph-file-js"></i>
+              </div>
+              <div>
+                <a
+                  href="https://omnifood-santiago.netlify.app"
+                  class="btn btn--portfolio"
+                  >Visitar</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container--portfolio container grid grid--2-cols">
+          <div class="project">
+            <div class="project-description project-description--br">
+              <span class="subheading">Carousel Component</span>
+              <p class="text-description">
+                Componente carrusel para testimonios. Consiste de imagen, cita,
+                nombre, título.
+              </p>
+              <div class="project-icons">
+                <i class="icon project-icon ph ph-file-html"></i>
+                <i class="icon project-icon ph ph-file-css"></i>
+              </div>
+              <div>
+                <a href="#" class="btn btn--portfolio">Visitar</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img
+              class="project-img project-img--r"
+              src="img/portfolio-2.png"
+              alt="Proyecto Omnifood."
+            />
+          </div>
+        </div>
+
+        <div class="container--portfolio container grid grid--2-cols">
+          <div class="project-img-box">
+            <img
+              class="project-img project-img--l"
+              src="img/portfolio-3.png"
+              alt="Proyecto Omnifood."
+            />
+          </div>
+
+          <div class="project">
+            <div class="project-description project-description--bl">
+              <span class="subheading">Accordion Component</span>
+              <p class="text-description">
+                Componente de acordeón ideal para sección de Q&A.
+              </p>
+              <div class="project-icons">
+                <i class="icon project-icon ph ph-file-html"></i>
+                <i class="icon project-icon ph ph-file-css"></i>
+              </div>
+              <div>
+                <a href="#" class="btn btn--portfolio">Visitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container--portfolio container grid grid--2-cols">
+          <div class="project">
+            <div class="project-description project-description--br">
+              <span class="subheading">Coding Life</span>
+              <p class="text-description">
+                Creación de identidad visual para Coding Life, marca ficticia.
+                Enfocada en animación 3D y desarrollo de software.
+              </p>
+              <div class="project-icons">
+                <i class="icon project-icon ph ph-file-html"></i>
+                <i class="icon project-icon ph ph-file-css"></i>
+              </div>
+              <div>
+                <a
+                  href="https://www.behance.net/gallery/155645323/Manual-de-Identidad-Coding-Life-By-Santiago-Sepulveda"
+                  class="btn btn--portfolio"
+                  >Visitar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img
+              class="project-img project-img--r"
+              src="img/portfolio-4.png"
+              alt="Proyecto Omnifood."
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-education" id="education">
+        <div class="container">
+          <h2 class="heading-section">Educación</h2>
+        </div>
+
+        <div class="container container--flex">
+          <div class="container--card">
+            <div class="education-box">
+              <span class="subheading">2021 - Presente</span>
+              <span class="subheading subheading--education"
+                >Ingeniería Multimedia</span
+              >
+              <p class="text-description text-description--edu">
+                Universidad Simón Bolívar / Cúcuta
+              </p>
+            </div>
+            <div class="education-box">
+              <span class="subheading">2023</span>
+              <span class="subheading subheading--education"
+                >Build Responsive Real-World Websites with HTML and CSS</span
+              >
+              <p class="text-description text-description--edu">Udemy</p>
+            </div>
+            <div class="education-box">
+              <span class="subheading">2023</span>
+              <span class="subheading subheading--education"
+                >The Complete JavaScript Course 2023: From Zero to Expert!</span
+              >
+              <p class="text-description text-description--edu">Udemy</p>
+            </div>
+            <div class="education-box">
+              <span class="subheading">2020</span>
+              <span class="subheading subheading--education"
+                >Curso de idiomas - Inglés</span
+              >
+              <p class="text-description text-description--edu">
+                Jamestown English Center
+              </p>
+            </div>
+          </div>
+
+          <div class="container--card">
+            <div class="education-box education-box--nb">
+              <span class="subheading">Idiomas</span>
+              <span class="subheading subheading--education">Español</span>
+              <p class="text-description text-description--edu">Nativo</p>
+            </div>
+            <div class="education-box education-box--nb">
+              <span class="subheading subheading--education">Inglés</span>
+              <p class="text-description text-description--edu">B2</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-primary">Contáctame</h2>
+              <form
+                id="cta-form"
+                class="cta-form"
+                method="post"
+                name="contact"
+                netlify
+              >
+                <input type="hidden" name="form-name" value="contact" />
+                <div>
+                  <label for="name">Nombre</label>
+                  <input id="name" type="text" name="name" required />
+                </div>
+                <div>
+                  <label for="last_name">Apellido</label>
+                  <input id="last_name" type="text" name="last_name" required />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input id="email" type="text" name="email" required />
+                </div>
+                <div>
+                  <label for="phone">Celular</label>
+                  <input id="phone" type="text" name="phone" />
+                </div>
+                <div class="last">
+                  <label for="message">Mensaje</label>
+                  <!-- <input id="message" type="" name="message" /> -->
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="5"
+                    form="cta-form"
+                    required
+                  ></textarea>
+                </div>
+                <div class="btn-box">
+                  <button class="btn--form">
+                    Enviar
+                    <div class="icon-box">
+                      <i class="icon icon--btn ph ph-paper-plane-right"></i>
+                    </div>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--2-cols">
+        <div class="footer-text">
+          <span class="subheading subheading--footer">Santiago Sepúlveda</span>
+          <p class="text-description text-description--footer">
+            Copyright &copy; 2023 by Santiago Sepúlveda, Inc. All rights
+            reserved.
+          </p>
+        </div>
+        <div class="footer-icons">
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/santiago-sepúlveda-022a8a217/"
+            target="_blank"
+          >
+            <i class="icon icon--socials icon--footer ph ph-linkedin-logo"></i>
+          </a>
+          <a
+            class="social-link"
+            href="https://github.com/SantiagoS2109"
+            target="_blank"
+          >
+            <i class="icon icon--socials icon--footer ph ph-github-logo"></i>
+          </a>
+          <a
+            class="social-link"
+            href="https://www.instagram.com/imsanti.21/"
+            target="_blank"
+          >
+            <i class="icon icon--socials icon--footer ph ph-instagram-logo"></i>
+          </a>
+          <a
+            class="social-link"
+            href="https://twitter.com/santiagod_21"
+            target="_blank"
+          >
+            <i class="icon icon--socials icon--footer ph ph-twitter-logo"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

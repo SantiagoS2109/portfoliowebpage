@@ -1,0 +1,183 @@
+/**********************/
+/* BELOW 1080px (Desktop) */
+/**********************/
+
+@media (max-width: 67em) {
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+}
+
+/**********************/
+/* BELOW 970px (Landscape Tablets) */
+/**********************/
+
+@media (max-width: 60.75em) {
+  .main-nav-list {
+    gap: 2.4rem;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .project-img {
+    width: 43rem;
+  }
+
+  .project-img-box {
+    height: 24rem;
+  }
+}
+
+/**********************/
+/* BELOW 890px (Smaller Tablets) */
+/**********************/
+
+@media (max-width: 55.63em) {
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    gap: 1.6rem;
+    font-size: 1.6rem;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .text-description {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.4rem;
+    padding: 1.8rem 1.4rem;
+  }
+
+  .icon--btn {
+    font-size: 3rem;
+  }
+
+  .btn--clean:link,
+  .btn--clean:visited {
+    padding: 1.4rem 0.4rem;
+  }
+
+  .project-img {
+    width: 40rem;
+  }
+
+  .project-img-box {
+    height: 21rem;
+  }
+}
+
+/**********************/
+/* BELOW 840px (Tablets) */
+/**********************/
+
+@media (max-width: 52.5em) {
+  .section-hero .heading-primary {
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .section-hero .subheading-hero {
+    font-size: 1.4rem;
+  }
+
+  .hero-img {
+    width: 75%;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    gap: 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  .logo:link,
+  .logo:visited {
+    font-size: 2.4rem;
+  }
+
+  .project-img {
+    width: 36rem;
+  }
+
+  .project-img-box {
+    height: 19rem;
+  }
+
+  .section-portfolio .grid {
+    gap: 6.4rem;
+  }
+
+  .footer-text .text-description {
+    font-size: 1.2rem;
+  }
+}
+
+/**********************/
+/* BELOW 740px (Tablets) */
+/**********************/
+
+@media (max-width: 46.3em) {
+  .icon {
+    font-size: 2.4rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    gap: 1.6rem;
+    font-size: 1.2rem;
+  }
+
+  .project-img {
+    width: 32rem;
+  }
+
+  .project-img-box {
+    height: 17rem;
+  }
+
+  .section-portfolio .text-description {
+    font-size: 1.2rem;
+  }
+
+  .about-content {
+    column-gap: 6.4rem;
+  }
+
+  .text-description--about {
+    width: 80%;
+  }
+
+  .text-description {
+    font-size: 1.2rem;
+  }
+
+  .icon--socials {
+    font-size: 4.2rem;
+  }
+
+  .btn--clean:link,
+  .btn--clean:visited {
+    padding: 1.2rem 0.2rem;
+  }
+
+  .icon--btn {
+    font-size: 2.4rem;
+  }
+
+  .icon--look {
+    font-size: 3.6rem;
+  }
+
+  .icon--look-small {
+    font-size: 2.4rem;
+  }
+}
