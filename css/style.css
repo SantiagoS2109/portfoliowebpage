@@ -52,6 +52,24 @@
   height: 2.4rem;
 }
 
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  font-size: 3.2rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close"] {
+  display: none;
+}
 /* ======================== */
 /* HERO SECTION */
 /* ======================== */

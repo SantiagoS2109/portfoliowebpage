@@ -72,7 +72,7 @@ html {
   /* Porcentaje del tamaño de fuente en la configuración
   del navegador del usuario */
   font-size: 62.5%;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
