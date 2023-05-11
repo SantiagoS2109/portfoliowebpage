@@ -181,7 +181,7 @@
 }
 
 /**********************/
-/* BELOW 740px (Tablets) */
+/* BELOW 740px (Smaller Tablets) */
 /**********************/
 
 @media (max-width: 46.3em) {
@@ -347,4 +347,11 @@
   .subheading--footer {
     font-size: 1.4rem;
   }
+}
+
+/**********************/
+/* BELOW 544px (Phones) */
+/**********************/
+
+@media (max-width: 44em) {
 }
